@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-sm-min) {}
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: @screen-md-min){} 
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: @screen-lg-min) {}*/
+
+html * {
+	color: #26404d;
+}
+
+body {
+	padding-top: 50px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.col-lg-8 h3 {
+	font-size: 4.5em;
+	color: #FFFFFF;
+}
+
+.col-lg-4 h2 {
+	font-size: 18em;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.col-lg-8 p {
+		font-size: 1.4em;
+}
+
+header.masthead {
+	padding-top: 10rem;
+	padding-bottom: calc(10rem - 56px);
+	background-image: url(../img/header.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Share Tech Mono', monospace;
+	text-align: left;
+}
+
