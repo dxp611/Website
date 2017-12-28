@@ -13,31 +13,11 @@
 /* Large devices (large desktops, 1200px and up) */
 /*@media (min-width: @screen-lg-min) {}*/
 
-html * {
-	color: #26404d;
+* {
+	
 }
 
-body {
-	padding-top: 50px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.intro {
-	font-size: 4.5em;
-	color: #FFFFFF;
-}
-
-.col-lg-4 h2 {
-	font-size: 18em;
-	text-align: left;
-	color: #FFFFFF;
-}
-
-.col-lg-8 p {
-		font-size: 1.4em;
-}
-
-header.masthead {
+header {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - 56px);
 	background-image: url(../img/header.jpg);
