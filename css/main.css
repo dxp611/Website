@@ -20,10 +20,9 @@ html * {
 body {
 	padding-top: 50px;
 	font-family: 'Roboto', sans-serif;
-
 }
 
-.col-lg-8 h3 {
+.intro {
 	font-size: 4.5em;
 	color: #FFFFFF;
 }
