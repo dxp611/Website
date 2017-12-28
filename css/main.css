@@ -13,12 +13,12 @@
 /* Large devices (large desktops, 1200px and up) */
 /*@media (min-width: @screen-lg-min) {}*/
 
-* {
-	
+html {
+	font-family: 'Roboto', sans-serif;
 }
 
-header {
-	padding-top: 10rem;
+.masthead {
+	padding-top: 5rem;
 	padding-bottom: calc(10rem - 56px);
 	background-image: url(../img/header.jpg);
 	background-position: center center;
@@ -29,4 +29,30 @@ header {
 	font-family: 'Share Tech Mono', monospace;
 	text-align: left;
 }
+
+.hi {
+	font-size: 12em;
+}
+
+h2, h3, p {
+	color: #26404d;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+.btn { 
+	background-color: #26404d; 
+	text-align: center;
+}
+
+
+footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #ebebeb;
+}
+
+
 
