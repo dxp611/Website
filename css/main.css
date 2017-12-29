@@ -2,21 +2,25 @@
 
 /* CSS Document */
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-/* Small devices (tablets, 768px and up) */
-/*@media (min-width: @screen-sm-min) {}
-
-/* Medium devices (desktops, 992px and up) */
-
 @media only screen and (min-width: 992px){
-	.hi {
-		color: #000;
+	img {
+		margin-top: 1em;
+		margin-bottom: 0.5em;
 	}
+	
+	h2 { 
+		text-align:center;
+	}
+	
+	.hi {
+		text-align: left;
+	}
+	
 } 
 
-/* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min) {}*/
+@media only screen and (min-width: 1200px){
+	
+}
 
 html {
 	font-family: 'Roboto', sans-serif;
@@ -36,8 +40,18 @@ html {
 	text-align: left;
 }
 
+.masthead p {
+	color:#FFFFFF;
+	font-size: 2rem;
+}
+
 .hi {
 	font-size: 12rem;
+	text-align: right;
+}
+
+h1 { 
+	font-size: 3.8rem;
 }
 
 h2, h3, p {
@@ -46,6 +60,7 @@ h2, h3, p {
 
 h2 {
 	font-weight: 600;
+	text-align: left;
 }
 
 .btn { 
@@ -53,11 +68,14 @@ h2 {
 	text-align: center;
 }
 
+section {
+	margin: 2em 1em;
+}
 
 footer {
 	margin-top: 1rem;
-	padding-top: 30px;;
-	padding-bottom: 30px;
+	padding-top: 1rem;;
+	padding-bottom: 0.1rem;
 	background-color: #ebebeb;
 }
 
