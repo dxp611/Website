@@ -8,13 +8,19 @@
 /*@media (min-width: @screen-sm-min) {}
 
 /* Medium devices (desktops, 992px and up) */
-/*@media (min-width: @screen-md-min){} 
+
+@media only screen and (min-width: 992px){
+	.hi {
+		color: #000;
+	}
+} 
 
 /* Large devices (large desktops, 1200px and up) */
 /*@media (min-width: @screen-lg-min) {}*/
 
 html {
 	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
 }
 
 .masthead {
@@ -31,7 +37,7 @@ html {
 }
 
 .hi {
-	font-size: 12em;
+	font-size: 12rem;
 }
 
 h2, h3, p {
@@ -49,8 +55,9 @@ h2 {
 
 
 footer {
-	padding-top: 1em;
-	padding-bottom: 1em;
+	margin-top: 1rem;
+	padding-top: 30px;;
+	padding-bottom: 30px;
 	background-color: #ebebeb;
 }
 
