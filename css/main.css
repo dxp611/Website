@@ -72,6 +72,16 @@ section {
 	margin: 2em 1em;
 }
 
+.picture { 
+	height: 15rem;
+	width: 15rem;
+}
+
+.icon {
+ height: 2rem;
+ width:2rem;
+}
+
 footer {
 	margin-top: 1rem;
 	padding-top: 1rem;;
