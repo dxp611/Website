@@ -2,35 +2,102 @@
 
 /* CSS Document */
 
-@media only screen and (min-width: 992px){
-	img {
-		margin-top: 1em;
-		margin-bottom: 0.5em;
-	}
-	
-	h2 { 
-		text-align:center;
-	}
-	
-	.hi {
-		text-align: left;
-	}
-	
-} 
+@media only screen and (min-width: 992px) {
+}
 
-@media only screen and (min-width: 1200px){
-	
+@media only screen and (min-width: 1200px) {
 }
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Proxima Nova', sans-serif;
 	font-size: 100%;
 }
 
+body {
+	color: #26404d;
+	height: 100%;
+	width: 100%;
+}
+.bg {
+	background-image: url(../img/header.jpg);
+}
+.inline{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	color: #000000;
+}
+.content {
+	top: 50%;
+	width: 65%;
+	height: auto;
+	position: absolute;
+	right: 25px;
+	margin-top: -100px; /* half the height of the element */
+}
+.spacing{
+	margin: 5px 0px;
+}
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 450px;
+	background-color: #26404d;
+	top: 0;
+	left: 0;
+	padding-left: 50px;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	font-family: "Share Tech Mono";
+	font-size: 4rem;
+	color: #FFFFFF;
+	text-decoration: none;
+	position: absolute;
+	top: 30%;
+}
+
+#sidebar a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#contact a{
+	color: #26404d;
+	font-family: 'Proxima Nova Semibold';
+	font-size: 1.3rem;
+	text-decoration: none;
+}
+a:hover {
+	color: #ACACAC;
+	text-decoration: none;
+	cursor: pointer;
+}
+p {
+	font-family: 'Proxima Nova';
+}
+.hi {
+	font-size: 12rem;
+	font-family: 'Share Tech Mono';
+	text-align: right;
+}
+.name {
+	font-size: 4rem;
+	text-align: left;
+}
+.text {
+	font-size: 1.5rem;
+	font-family: 'Proxima Nova Semibold';
+}
+.sharetechfont {
+	font-family: 'Share Tech Mono';
+}
+
 .masthead {
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-top: 5rem;
 	padding-bottom: calc(10rem - 56px);
-	background-image: url(../img/header.jpg);
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -39,55 +106,26 @@ html {
 	font-family: 'Share Tech Mono', monospace;
 	text-align: left;
 }
-
-.masthead p {
-	color:#FFFFFF;
-	font-size: 2rem;
-}
-
-.hi {
-	font-size: 12rem;
-	text-align: right;
-}
-
-h1 { 
-	font-size: 3.8rem;
-}
-
-h2, h3, p {
-	color: #26404d;
-}
-
-h2 {
-	font-weight: 600;
-	text-align: left;
-}
-
-.btn { 
-	background-color: #26404d; 
+.btn {
+	background-color: #26404d;
 	text-align: center;
+	margin: 15px 10px;
 }
-
 section {
 	margin: 2em 1em;
 }
-
-.picture { 
-	height: 15rem;
-	width: 15rem;
+.picture {
+	height: 13rem;
+	width: 13rem;
 }
-
 .icon {
- height: 2rem;
- width:2rem;
+	height: 2rem;
+	width: 2rem;
 }
-
 footer {
 	margin-top: 1rem;
-	padding-top: 1rem;;
+	padding-top: 1rem;
+	;
 	padding-bottom: 0.1rem;
 	background-color: #ebebeb;
 }
-
-
-
