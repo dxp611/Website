@@ -77,7 +77,10 @@ body {
 	text-decoration: none;
 	cursor: pointer;
 }
-
+a{
+	text-decoration: none;
+	
+}
 .selected {
 	color: #ACACAC;
 	text-decoration: none;
@@ -133,7 +136,6 @@ section {
 	height: 2rem;
 	width: 2rem;
 }
-
 .myImg {
     border-radius: 5px;
     cursor: pointer;
