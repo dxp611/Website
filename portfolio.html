@@ -16,8 +16,8 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Share+Tech+Mono" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
 </head>
-<body class="bg">
-<div class="container ">
+<body>
+<div class="container">
 	<div class="row">
 		<div id="sidebar">
 			<ul>
@@ -26,19 +26,78 @@
 				<li><a href="contact.html" class="hov">Contact</a></li>
 			</ul>
 		</div>
-		<div class="container content">
+		<div class="container content ">
 			<section id="web-skills">
 				<div class="container">
-					<h2> Web Skills</h2>
+					<h1> Web Skills</h1>
 					<hr>
+					<div class="row">
+						<div class="col-6">
+							<h3>My first website design</h3>
+							<img  src="img/Hector.jpg" width="290">
+							
+						</div>
+						<div class="col-6">
+							<h3>My first website in Adobe Muse</h3>
+							<p>The first website I created using a modified template.</p>
+							<a href="https://dxp611.github.io/Holocaust/" target="_blank"> <img class="hovertransparent" src="img/screen-shot-2015-01-13-at-43236-pm.jpg" width="290"> </a> </div>
+					</div>
+					<h1> Coding and Design Skills</h1>
+					<hr>
+					<img src="img/logo.png" width="291px" >
+					<p> </p>
+					<p>Working in a team of 6 people we created a game which received the <strong>IBM prize</strong> (out of 25 teams) in a competition organised by our University, as part of a module. This was a challenge in both designing and coding skills.</p>
+					
+					<a href="https://git-teaching.cs.bham.ac.uk/mod-team-proj-2017/paradroid" target="_blank">See our code on Git!</a>
+					
+					<p>The game is based on the idea of the classic <a href="https://en.wikipedia.org/wiki/Bomberman">Bomberman</a>, but in an isometric style. The idea behind the name "Polymorphous" is that inside the game you can choose from 3 individual maps and 12 characters, mix them up and make the game your own. The idea of the game is based on achievements and is a play to unlock style of game.</p>
+					<p>All the artwork was created by me, from scratch, for this game. Having experience as a graphic designer, helped me into getting into the mindset of designing arwork for the first time. The isometric perspective was a huge challenge. I started by working on a grid, developing the map and then adding the details like so: </p>
+					<div class="row">
+						<div class="col-4"><img src="img/theme1.gif" width="280px" ></div>
+						<div class="col-4"><img src="img/theme2.gif" width="280px" ></div>
+						<div class="col-4"><img src="img/theme3.gif" width="280px" ></div>
+					</div>
+					<p>There are three themes inside the game, each of them with their own atmosphere and specific music. </p>
+					<div class="row">
+						<div class="col-4"><img src="img/theme1.png" width="280px" ></div>
+						<div class="col-4"><img src="img/theme2.png" width="280px" ></div>
+						<div class="col-4"><img src="img/theme3.png" width="280px" ></div>
+					</div>
+					<p>There are 12 characters in the game, each of which have 12 positions. This means that there were 144 positions for all characters.</p>
+					<img src="img/chars.png" width="100%">
+					<p> Here is a video to demo the game:</p>
+					<iframe width="660px" height="372px" src="https://www.youtube.com/embed/biMmRFgScSY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<hr>
+					
 				</div>
 			</section>
 		</div>
 	</div>
 </div>
+	
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+	
 <!-- Optional JavaScript --> 
 <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
